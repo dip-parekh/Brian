@@ -27,7 +27,7 @@ export const studioConfig = {
     shortStatement:
       'Bespoke tattoo artistry crafted with discipline, precision, and enduring respect for the craft.',
     /** Optional path to a custom logo image (e.g., '/images/logo.svg'). Leave empty to use the built-in monogram mark. */
-    logoImageUrl: '',
+    logoImageUrl: '' as string,
     copyrightYear: '2026',
   },
 
@@ -346,7 +346,7 @@ export const studioConfig = {
      * validation and presents an honest enquiry-handoff panel allowing the
      * client to dispatch their validated booking via WhatsApp, Email, or copy.
      */
-    endpointUrl: '',
+    endpointUrl: '' as string,
     styles: [
       'Fine Line',
       'Black & Grey',

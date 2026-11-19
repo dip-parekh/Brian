@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "typecheck": "node ./node_modules/typescript/bin/tsc -b",
     "build": "node ./node_modules/typescript/bin/tsc -b && vite build",
     "preview": "vite preview"
   },
